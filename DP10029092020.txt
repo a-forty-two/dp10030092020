@@ -1,0 +1,420 @@
+Hello world!
+
+We'll get started shortly, once the audience arrives!
+
+
+1) Servers
+	- internal and external fragmentation 
+
+-> Size of char=1, double=8 
+
+-> WHO BUILDS your programs???
+
+-> IMPERATIVE                          DECLARATIVE 
+ - C++, C, Java, Python                - Spark(PySpark, Scala), HTML
+ - tell computer how to do things      - what to do
+
+
+a=1             a=?         1              ok
+b=2             b=?         2              ok
+c=a+b           c=?         3              ok
+print(c)         ?          "3"            EXECUTE->"3"
+
+
+Big Data
+ -> VOLUME, VELOCITY, VARIETY 
+	-> TBs or PBs
+	-> just GBs -> WAIT and collect more (basic ML-> 50 rows of data)
+
+-> ALWAYS cluster based computing 
+-> Try to finish ML in BigData Itself! (Spark, DataBricks,...-> MLLib)
+-> no need to deploy more resources or add cost!!!
+	- existing infra and cost!
+
+
+ML Studio-> in built support for BigData-> Hadoop, Spark, DB..HDInsight
+STORAGE-> warehouses, datalakes
+
+CLoud-> Monitoring is NATIVE 
+
+PLEASE use YOUR PERSONAL EMAIL 
+IDs ONLY 
+
+
+
+Namespace:
+
+Male
+Female
+
+King Kong v.s Me 
+
+Monkey{Male; Female;}
+Human{Male; Female;}
+Human::Male 
+
+Organization-> DL-> DonaldDuck
+TenantID.SubscriptionId.ResourceGroup.Resource
+
+Role Based Access Control-> Azure Active Directory
+Users and Groups
+permissions
+IAM-> identity and access management 
+
+Users:
+- Human users-> MFA, user/pass, OTP, finger...
+		-> USER PRINCIPAL NAME
+			-> MANUAL WORK 
+- Applications, API, Devices-> Certificates, sign..
+		-> Service principal Name 
+			-> AUTOMATION
+
+
+RESOURCE GROUP:
+	- LIFECYCLE Manager
+   - RESOURCES that are CREATED and DELETED
+  - MySQL + PhP + JQuery 
+  - JQuery-> deleted
+  	- do i also want my MySQL/PhP to be del?
+	- NO? THey should've been sep. RGs!!!
+
+
+-> do not console, command line-> App Services
+	-> .NET, py, java, php, nodejs
+-> VIRTUAL MACHINES 
+
+
+ALGORITHM-> Y= MX + C = f(x)
+
+f(x) remains the SAME-> its the DATA that will
+decide REGRESSION or classificatioN!!!!
+
+LR,DT,CART,KNN-> classification, or regress!
+
+Web Crawler-> property listing
+-> 88bricks, magicproperties 
+-> distance from poolm,school
+
+magic-> parking area 
+
+     pool school  parking
+1     10   20      NULL
+2      NULL NULL   YES
+
+
+Inequation-> Classification
+Equation -> Regression
+
+y = mx + c; (regression)
+
+Classification (binary) 
+y :  m1x + c1  when y > threshold}
+y :  m2x + c2  when y < threshold} 
+
+y-> DIAGNOSIS-> M/B 
+X-> every other column have provided
+ML-> art of selecting M and C so that
+	y = mx+ c can be generalized!!! 
+
+
+100 potatoes:
+
+Team1: 10 poto/hour-> 1 such person -> CPU 
+	-> mov ah,1 int 21h -> Hz 
+Team 2: 2 poto/hour-> 10 such people -> GPU
+	-> GB
+
+-> data X replication_factor + 10 GB RAM (OS+for others)
+
+100 MB-> 10GB + 300 MB 
+
+
+15 mins to steal anything in a supermarket
+ -> jewelery 
+ -> potato chips
+ -> candies
+
+only 2 items at a time:
+ -> J and P -> best (MAX time)
+ -> P and C -> worst (MINIMIZE!!!)
+ -> J and C -> ok
+          -> for first 10 mins-> only chips and candies were stolen!!!!
+	=> if you have poor thieves, replace them!!!
+
+if my ACC is not even 80% (0.80)-> then kill those algos, and let
+some other in that time!!!! 
+
+
+MODEL EXPLAINATION-> Global IMportance and LOCAL importance 
+
+Clean Missing Data:
+	- Replaced IT: Mean, Median, Mode, Custom Value
+	- Dropped IT: entire row, or entire columns 
+
+
+-> Directed Acylic Graph 
+	-> Execute only after completion
+
+
+Split:
+	-> ROW split (Random_state=x)... 
+	-> Regular Expression
+	-> Relative Expression 
+
+Imblanace data dist-> weaker class is distributed equaly between split 
+	sets 
+Classification-> YES 
+
+xxxxxxxyyy   ->  GBK-> {x....x}  , {y...y} 
+	     ->  
+
+
+Pizza Pipelines: 
+	1) Take the order-> 2 people
+	2) bake the order-> 1 person
+	3) deliver the order -> 5 delivery 
+
+
+
+ML-> DS
+Production-> D or DV
+GPU-> NV
+
+NOT ALLOW-> BROADCAST and MULTICAST 
+
+VERSIONING-> metadata changes
+	-> time travel to older version 
+
+Q1v1-> D1v1  
+D1 schema's change-> Q1 will also fail!!!
+
+Deployment Slots-> Staging 
+
+Databricks -> DataLake 
+KeyVault: secret (access keys, certificates, connection strings...)
+-> Developer will recv. 
+
+
+1)class ABC{      
+private:
+int a;
+public:
+int b;
+};
+int main() { 
+	ABC* xyz = new ABC();
+	void* p = (void*) xyz;
+	int* q = (int*) p; cout<<*q<<*q++; 
+} 
+-> a cannot be accessed 
+->  friend function: but will change the class def
+2) # ASSUMING the size of int is 4
+
+class A { private: int a; public: geta(){return a;}} 
+class B: A { public: int b; } -> size of (A) + size of(B) 
+B.getA()-> 
+
+-> what is size of B? 
+
+3) What is size of int?
+   -> int-> address
+	-> handle the LARGEST address in the ram
+
+suppose-> size of int was 1 bit -> max address: 2^1-1 = 1 -> {0,1} 
+Max address in RAM-> was 2 bit 
+
+POINTERS = INT = Bitness = MAX address = parallel wires 
+
+-> Accumulator (AX) -> 8 bit-> stored address max-> 1111 1111
+
+Azure COntainer Instances-> SINGLE CONTAINER (Virtual Environment)
+	-> Jupypter (iPython), R, Julia, PySpark, Scala, SQL 
+
+Storage-> BLOB (always available)!!!
+	SAVE COst-> Delete or STOP ACI!!!!
+
+
+if you need ALWAYS ON, Fault TOLERANT, Auto Scalaibility
+	-> AKS: Azure Kubernetes Service 
+	-> CLUSTER manager-> manage my other containers through Kub
+		without any human intervention 
+	-> at least 3 machines with 4 cores EACH is required
+	-> ALWAYS a min running cost associated!!!!
+
+
+
+1) Kubernetes
+2) Data Drift 
+3) DataBricks + KeyVault + Datalake (Private Enterprise Data) 
+4) Drag and drop of Designer -> ANY ML activity 
+5) Converting Program into Azure Program (HyperDrive) 
+
+OOC:
+1) Horizontal, Vertical scaling
+2) security general
+
+
+Bayesian=>   p(B->A) = p(A->B) * p(A) / p(B) 
+
+
+Experiment-> GLobal Importance-> TopK 
+
+
+
+
+Training Script:
+
+1) Accumulate + Cleaned my data
+2) AutomatedML-> RUN
+3) Opened that RUN-> get Model Explanation
+4) From model exp-> get topK features 
+5) cleandata.loc[:,top_k_features]
+6) AutomatedML-> new features 
+https://docs.microsoft.com/en-us/python/api/azureml-interpret/azureml.interpret.explanationclient?view=azure-ml-py
+
+
+POST request-> message body 
+
+REST
+
+ALWAYS ON-> Kubernetes 
+Small teams, limited operations, -> ACI 
+
+
+Endpoint-> Python file -> 8080
+
+Scoring-> Loading your trained model, and model.predict(new_data) 
+
+predict fn (JSON)-> returning JSON (prediction) 
+
+
+
+dumpeverything-> data-> data.csv
+key1: Fkv7mLKMErX6LCJkoRy3LNt6rebGWcEr0Nu3HEOzhEVOdxn4IOBH0bAVWxRJKEIlDHdYWd7tqUyCfxAj7xKBrg==
+storage account URI: https://dumpeverything.blob.core.windows.net/
+
+lakesecret
+https://keytomylake.vault.azure.net/
+/subscriptions/353b9ff5-223a-4dc4-853e-825bc329d30c/resourceGroups/dblater/providers/Microsoft.KeyVault/vaults/keytomylake
+
+brickscope
+
+
+-> designer menu items 
+-> monitoring (data drift)
+-> hyperdrive (py program)
+
+
+dbutils.fs.mount(
+  source="wasbs://data@dumpeverything.blob.core.windows.net/",
+  mount_point="/mnt/lake",
+  extra_configs={"fs.azure.account.key.dumpeverything.blob.core.windows.net":dbutils.secrets.get(key="lakesecret",scope="brickscope")}
+)
+data = spark.read.csv("/mnt/lake/data.csv", header=True)
+data.take(3)
+
+
+mean, std deviation-> z-scoring-> (x-mu)/sigma 
+
+MODEL-> based on a PARTICULAR mean and Std dev!!!
+
+2 years-> 10 GB more data 
+
+NEW MU and STD_DEVIATION!!!
+
+
+Clipping-> removing limits | chopping the data 
+		-> after z-score-> clip by <-3 to >3 => outlier removal!
+Split Data
+	=> Create 2 datasets based on RegEx, RelEx or Rows (random) 
+					SELECT CUSTOM where 'ORDER' > 5 
+Sampling and Partition 
+	=> validation sets, multiple batches of data 
+
+
+
+Convert to Indicator Values-> Label Encoding (FILTERING the data)
+(Local models in each city)
+Profit City-> IND
+100    blr     0
+100    maa     1
+200    bom     2
+
+If i wanted ALL columns to participate in ML: (GLobal Model)
+One-Hot Encoding
+Profit   CITY_blr CITY_maa CITY_bom
+100        1          0       0
+100        0          1       0
+200        0          0       1
+
+
+Histogram and Bar-chart 
+BINS           SLOTS 
+-> continous   -> discrete 
+-> distributions  -> categorical plotting 
+
+SMOTE-> oversample weaker class
+Balancing the Central Tendency
+NEFT      IMPS   
+10,000   1,000  0%
+10,000   5,500  100%
+10,000   9,900  200%  (APPROXM)
+10,000   12,000 300% -> problem is now on the other side!!!!! 
+
+Algos:
+	Recommendation: Matchbox, Wide and deep, SVD
+
+Pytorch: separate training procedure 
+Pytorch on Distributed Big data: (In Memory analysis)
+https://docs.microsoft.com/en-us/azure/databricks/applications/machine-learning/train-model/pytorch
+https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/tools-included
+https://docs.microsoft.com/en-us/azure/databricks/_static/notebooks/deep-learning/pytorch-single-node.html
+https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/sweep-clustering
+
+
+Please raise hands or mention in chat
+ when feedback is done 
+
+
+
+
+
+
+DataBricks-> DP200, Data Engineering
+
+
+Deployment:
+	1) Is it a small team, limited usage, no-high availability?
+		-> Azume Container Instance (Docker Container)
+		-> automatic shutdown, scheduling, restarting , stopping
+		-> possible on-prem without internet
+	2) High availability-> ALWAYS ON with REPLICATION
+		-> Kubernetes
+		-> Dev/test(1)-> to check app, Prod: actual usage (min 3)
+		-> Scalability,Security-> Kub. problem 
+		-> Azure Kubernetes Services-> manage Kubernetes for us
+		-> possible on-prem without internet
+	3) IoT, Robotics, Sensors, drones, wearable:
+		-> FPGA-> field programmable gate arrays 
+		=> Edge Computing 
+	4) Web Apps 
+		=> ALWAYS on internet 
+
+
+BigData: databricks
+	- Standard: small teams doing SAME things, or just 1-2 people
+		- automatic shutdown
+	- COncurrent: highly available, 24X7 on
+
+
+
+Resuming at 4:15 
+- horizontal and vertical scaling 
+  -> vertical scaling: size of machine-> size of operation/computing power
+  -> horizontal scaling: no. of machines -> increase no. of users/load
+
+
+
+
+
+
